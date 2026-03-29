@@ -11,6 +11,7 @@
     "prod:logs": "docker-compose -f docker-compose.prod.yml logs -f",
     "prod:restart": "docker-compose -f docker-compose.prod.yml restart",
     "logs": "docker-compose logs -f",
-    "clean": "docker system prune -a"
+    "clean": "docker system prune -a",
+    "start": "docker-compose up"
   }
 }
